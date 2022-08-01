@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F81BBEE6-6CE4-4E4D-AC10-BCF924F9C00E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Ekipman_Bulucu</RootNamespace>
+    <AssemblyName>Ekipman Bulucu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anasayfa.Designer.cs">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DevamEt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DevamEt.Designer.cs">
+      <DependentUpon>DevamEt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ekipman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekipman.Designer.cs">
+      <DependentUpon>Ekipman.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EkipmanUyeOlmayanlarIcın.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EkipmanUyeOlmayanlarIcın.Designer.cs">
+      <DependentUpon>EkipmanUyeOlmayanlarIcın.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KayıtOl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KayıtOl.Designer.cs">
+      <DependentUpon>KayıtOl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Klavye.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Klavye.Designer.cs">
+      <DependentUpon>Klavye.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Klavye2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Klavye2.Designer.cs">
+      <DependentUpon>Klavye2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kulaklık.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kulaklık.Designer.cs">
+      <DependentUpon>Kulaklık.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kulaklık2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kulaklık2.Designer.cs">
+      <DependentUpon>Kulaklık2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Monitor2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monitor2.Designer.cs">
+      <DependentUpon>Monitor2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Monitör.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Monitör.Designer.cs">
+      <DependentUpon>Monitör.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mouse.Designer.cs">
+      <DependentUpon>Mouse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mouse2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mouse2.Designer.cs">
+      <DependentUpon>Mouse2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mousepad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mousepad.Designer.cs">
+      <DependentUpon>Mousepad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mousepad2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mousepad2.Designer.cs">
+      <DependentUpon>Mousepad2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyEquipmentDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyEquipmentDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyEquipmentDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyEquipmentDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyEquipmentDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyEquipmentDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyEquipmentDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyEquipmentDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyEquipmentDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyEquipmentDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyEquipmentDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyEquipmentDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyEquipmentDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyEquipmentDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyEquipmentDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyEquipmentDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyEquipmentDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyEquipmentDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyEquipmentDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyEquipmentDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyEquipmentDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyEquipmentDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyEquipmentDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyEquipmentDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyEquipmentDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyEquipmentDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MyEquipmentDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyEquipmentDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="NasilKullanilir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NasilKullanilir.Designer.cs">
+      <DependentUpon>NasilKullanilir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OyuncuKoltugu2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OyuncuKoltugu2.Designer.cs">
+      <DependentUpon>OyuncuKoltugu2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OyuncuKoltuguu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OyuncuKoltuguu.Designer.cs">
+      <DependentUpon>OyuncuKoltuguu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profil.Designer.cs">
+      <DependentUpon>Profil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profilduzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Profilduzenle.Designer.cs">
+      <DependentUpon>Profilduzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgramHakkinda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramHakkinda.Designer.cs">
+      <DependentUpon>ProgramHakkinda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UrunBilgi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UrunBilgi.Designer.cs">
+      <DependentUpon>UrunBilgi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UyeGirisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UyeGirisi.Designer.cs">
+      <DependentUpon>UyeGirisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yonlendiriliyorsunuz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yonlendiriliyorsunuz.Designer.cs">
+      <DependentUpon>Yonlendiriliyorsunuz.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Anasayfa.resx">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DevamEt.resx">
+      <DependentUpon>DevamEt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ekipman.resx">
+      <DependentUpon>Ekipman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EkipmanUyeOlmayanlarIcın.resx">
+      <DependentUpon>EkipmanUyeOlmayanlarIcın.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KayıtOl.resx">
+      <DependentUpon>KayıtOl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Klavye.resx">
+      <DependentUpon>Klavye.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Klavye2.resx">
+      <DependentUpon>Klavye2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kulaklık.resx">
+      <DependentUpon>Kulaklık.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kulaklık2.resx">
+      <DependentUpon>Kulaklık2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monitor2.resx">
+      <DependentUpon>Monitor2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Monitör.resx">
+      <DependentUpon>Monitör.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mouse.resx">
+      <DependentUpon>Mouse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mouse2.resx">
+      <DependentUpon>Mouse2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mousepad.resx">
+      <DependentUpon>Mousepad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mousepad2.resx">
+      <DependentUpon>Mousepad2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NasilKullanilir.resx">
+      <DependentUpon>NasilKullanilir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OyuncuKoltugu2.resx">
+      <DependentUpon>OyuncuKoltugu2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OyuncuKoltuguu.resx">
+      <DependentUpon>OyuncuKoltuguu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profil.resx">
+      <DependentUpon>Profil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Profilduzenle.resx">
+      <DependentUpon>Profilduzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramHakkinda.resx">
+      <DependentUpon>ProgramHakkinda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UrunBilgi.resx">
+      <DependentUpon>UrunBilgi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UyeGirisi.resx">
+      <DependentUpon>UyeGirisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yonlendiriliyorsunuz.resx">
+      <DependentUpon>Yonlendiriliyorsunuz.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="MyEquipmentDataSet.xsc">
+      <DependentUpon>MyEquipmentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyEquipmentDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyEquipmentDataSet.xss">
+      <DependentUpon>MyEquipmentDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet1.xsc">
+      <DependentUpon>MyEquipmentDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyEquipmentDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyEquipmentDataSet1.xss">
+      <DependentUpon>MyEquipmentDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet10.xsc">
+      <DependentUpon>MyEquipmentDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyEquipmentDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyEquipmentDataSet10.xss">
+      <DependentUpon>MyEquipmentDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet12.xsc">
+      <DependentUpon>MyEquipmentDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyEquipmentDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyEquipmentDataSet12.xss">
+      <DependentUpon>MyEquipmentDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet13.xsc">
+      <DependentUpon>MyEquipmentDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyEquipmentDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyEquipmentDataSet13.xss">
+      <DependentUpon>MyEquipmentDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet14.xsc">
+      <DependentUpon>MyEquipmentDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyEquipmentDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyEquipmentDataSet14.xss">
+      <DependentUpon>MyEquipmentDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet15.xsc">
+      <DependentUpon>MyEquipmentDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyEquipmentDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyEquipmentDataSet15.xss">
+      <DependentUpon>MyEquipmentDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet16.xsc">
+      <DependentUpon>MyEquipmentDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyEquipmentDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyEquipmentDataSet16.xss">
+      <DependentUpon>MyEquipmentDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet2.xsc">
+      <DependentUpon>MyEquipmentDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyEquipmentDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyEquipmentDataSet2.xss">
+      <DependentUpon>MyEquipmentDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet3.xsc">
+      <DependentUpon>MyEquipmentDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyEquipmentDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyEquipmentDataSet3.xss">
+      <DependentUpon>MyEquipmentDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet4.xsc">
+      <DependentUpon>MyEquipmentDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyEquipmentDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyEquipmentDataSet4.xss">
+      <DependentUpon>MyEquipmentDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet5.xsc">
+      <DependentUpon>MyEquipmentDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyEquipmentDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyEquipmentDataSet5.xss">
+      <DependentUpon>MyEquipmentDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet8.xsc">
+      <DependentUpon>MyEquipmentDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyEquipmentDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyEquipmentDataSet8.xss">
+      <DependentUpon>MyEquipmentDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet9.xsc">
+      <DependentUpon>MyEquipmentDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="MyEquipmentDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MyEquipmentDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MyEquipmentDataSet9.xss">
+      <DependentUpon>MyEquipmentDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

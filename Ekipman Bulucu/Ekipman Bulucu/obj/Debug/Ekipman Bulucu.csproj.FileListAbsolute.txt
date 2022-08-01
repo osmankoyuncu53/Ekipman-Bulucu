@@ -1,0 +1,34 @@
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\bin\Debug\Ekipman Bulucu.exe.config
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\bin\Debug\Ekipman Bulucu.exe
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\bin\Debug\Ekipman Bulucu.pdb
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman Bulucu.csprojAssemblyReference.cache
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.Anasayfa.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.Properties.Resources.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman Bulucu.csproj.GenerateResource.cache
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman Bulucu.csproj.CoreCompileInputs.cache
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman Bulucu.exe
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman Bulucu.pdb
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.KayıtOl.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.UyeGirisi.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.DevamEt.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.Loading.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.Ekipman.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.Klavye.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.EkipmanUyeOlmayanlarIcın.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.Klavye2.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.UrunBilgi.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.Mouse.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.Kulaklık.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.Monitör.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.Mousepad.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.Mouse2.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.ProgramHakkinda.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.Kulaklık2.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.Profil.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.Profilduzenle.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.Mousepad2.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.Yonlendiriliyorsunuz.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.Monitor2.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.OyuncuKoltuguu.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.OyuncuKoltugu2.resources
+C:\Users\samet\source\repos\Ekipman Bulucu\Ekipman Bulucu\obj\Debug\Ekipman_Bulucu.NasilKullanilir.resources
